@@ -1,0 +1,24 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adding background image */
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/qMRGYs8F/Screenshot-2025-03-26-12-07-41-50-99c04817c0de5652397fc8b56c3b3817.jpg'); /* Yahan apni image ka path daalna */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styling for heading */
+h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
